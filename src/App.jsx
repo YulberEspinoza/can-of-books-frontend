@@ -17,8 +17,8 @@ class App extends React.Component {
             {/* PLACEHOLDER: add a route with a path of '/about' that renders the `About` component */}
             <Route path="/about" element={<About />}></Route>
           </Routes>
-          <Footer />
         </Router>
+        <Footer />
       </>
     );
   }
